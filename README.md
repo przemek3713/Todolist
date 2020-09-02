@@ -20,6 +20,6 @@ ng serve
 ```
 
 
-after that project can be seen at https://localhost:4200/
+after that, project can be seen at https://localhost:4200/
 
 
