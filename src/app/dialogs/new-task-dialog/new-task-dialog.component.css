@@ -1,0 +1,16 @@
+.custom-mat-button {
+  color: white;
+  width: 50%;
+}
+
+.add-button {
+  background-color: #494430;
+}
+
+.cancel-button {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+}
