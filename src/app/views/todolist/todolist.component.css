@@ -1,0 +1,100 @@
+.full-width-table {
+  width: 100%;
+}
+
+.custom-row > button {
+  visibility: hidden;
+}
+
+
+.mat-header-cell {
+  background-color: #494430;
+  color: white;
+}
+
+.custom-mat-button {
+  background-color: #494430;
+  color: white;
+}
+
+.custom-mat-button-hidden {
+  visibility: hidden;
+}
+
+.mat-row:hover .custom-mat-button-hidden {
+  visibility: visible;
+  display: inline-block;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: #494430;
+}
+
+::ng-deep .mat-sort-header-button {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+::ng-deep .mat-sort-header-arrow {
+  color: white !important;
+}
+
+::ng-deep .mat-checkbox-inner-container {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  -ms-transform: translateY(-50%);
+}
+
+::ng-deep .mat-cell {
+  text-align: center;
+}
+
+.done-section {
+  border: 1px green solid;
+  width: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .desktop > .paginator {
+    right: 0;
+    position: absolute;
+  }
+
+  .mobile {
+    visibility: hidden;
+  }
+
+  .desktop {
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop {
+    width: 100%;
+  }
+
+  .desktop > .paginator {
+    display: block;
+    width: 100%;
+    left: 0;
+    position: absolute;
+  }
+
+  .desktop > .custom-mat-button {
+    visibility: hidden;
+  }
+
+  .mobile > button {
+    width: 100%;
+    color: white;
+    background-color: #494430;
+  }
+
+  ::ng-deep .mat-paginator-container {
+    padding: 0 !important;
+  }
+
+}

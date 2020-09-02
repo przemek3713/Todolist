@@ -1,0 +1,65 @@
+<div class="mat-elevation-z8 example-container">
+  <table mat-table class="full-width-table" matSort aria-label="Elements">
+
+    <ng-container matColumnDef="taskName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Task name</th>
+      <td mat-cell *matCellDef="let row">{{row.taskName}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="priority">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Priority</th>
+      <td mat-cell *matCellDef="let row" >{{getPriority(row.priority)}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="done">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Done</th>
+      <td mat-cell *matCellDef="let row;">
+        <mat-checkbox (click)="toggleDone(row, row.done)" [(ngModel)]="row.done"></mat-checkbox>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Actions</th>
+      <td mat-cell *matCellDef="let row">
+        <button matTooltip="Delete" mat-button class="custom-mat-button-hidden" (click)="deleteTask(row)">
+          <mat-icon>
+            delete
+          </mat-icon>
+        </button>
+        <button matTooltip="Edit" mat-button class="custom-mat-button-hidden" (click)="editTask(row)">
+          <mat-icon>
+            settings
+          </mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row class="custom-row" *matRowDef="let row ;columns: displayedColumns;"></tr>
+
+  </table>
+
+  <mat-toolbar>
+    <mat-toolbar-row class="desktop">
+
+      <button matTooltip="Create task" mat-mini-fab class="custom-mat-button" (click)="openNewTaskDialog()">
+        <mat-icon>add</mat-icon>
+      </button>
+
+      <mat-paginator class="paginator"
+                     [length]="dataSource?.data.length"
+                     [pageIndex]="0"
+                     [pageSize]="5"
+                     [pageSizeOptions]="[5,10,15]"
+      >
+      </mat-paginator>
+
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div>
+<div class="mobile">
+  <button mat-raised-button class="custom-mat-button-mobile" (click)="openNewTaskDialog()">
+    <span>Create new task</span>
+  </button>
+</div>
