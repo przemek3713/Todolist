@@ -1,0 +1,20 @@
+<h1>Edit task form</h1>
+
+<mat-form-field style="display: block;" appearance="outline">
+  <mat-label>Task name</mat-label>
+  <input matInput required [formControl]="taskName">
+  <mat-error *ngIf="taskName.invalid">{{getErrorMessage()}}</mat-error>
+</mat-form-field>
+
+<mat-form-field style="display:block;" appearance="outline">
+  <mat-label>Priority</mat-label>
+  <mat-select id="mySelectId" [(value)]="priority">
+    <mat-option value="0"></mat-option>
+    <mat-option value="1">Low</mat-option>
+    <mat-option value="2">Medium</mat-option>
+    <mat-option value="3">High</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<button class="custom-mat-button add-button" mat-raised-button (click)="onAcceptButton()">Accept</button>
+<button class="custom-mat-button cancel-button" mat-raised-button (click)="onCancelButton()">Cancel</button>
