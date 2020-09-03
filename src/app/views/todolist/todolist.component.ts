@@ -4,8 +4,7 @@ import {MatSort} from '@angular/material/sort';
 import {MatTable} from '@angular/material/table';
 import {TodolistDataSource, AssignmentInterFace} from './todolist-datasource';
 import {MatDialog} from '@angular/material/dialog';
-import {NewTaskDialogComponent} from '../../dialogs/new-task-dialog/new-task-dialog.component';
-import {EditTaskDialogComponent} from '../../dialogs/edit-task-dialog/edit-task-dialog.component';
+import {ConfigTaskDialogComponent} from '../../dialogs/config-task-dialog/config-task-dialog.component';
 import {LOCAL_STORAGE, StorageService} from 'ngx-webstorage-service';
 
 @Component({
@@ -49,11 +48,18 @@ export class TodolistComponent implements AfterViewInit, OnInit {
   }
 
   openNewTaskDialog(): void {
-    const dialogRef = this.dialog.open(NewTaskDialogComponent);
+    const row = {
+      id: this.dataSource.autoIncrement(),
+      taskName: '',
+      priority: '0',
+      done: false
+    };
+
+    const dialogRef = this.dialog.open(ConfigTaskDialogComponent, {data: row});
 
     dialogRef.afterClosed().subscribe(result => {
-      if (result.taskName !== null && result.priority !== null && result.done !== null) {
-        this.addTask(this.dataSource.autoIncrement(), result.taskName.value, +result.priority, false);
+      if (result.id !== null && result.taskName !== null && result.priority !== null && result.done !== null) {
+        this.addTask(result.id, result.taskName, +result.priority, false);
         this.refreshTable();
       }
     });
@@ -114,7 +120,7 @@ export class TodolistComponent implements AfterViewInit, OnInit {
       return obj.id === row.id;
     });
 
-    const dialogRef = this.dialog.open(EditTaskDialogComponent, {data: row});
+    const dialogRef = this.dialog.open(ConfigTaskDialogComponent, {data: row});
 
     dialogRef.afterClosed().subscribe(result => {
       if (result.taskName !== null && result.priority !== null && result.done !== null) {

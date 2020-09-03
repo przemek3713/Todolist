@@ -15,13 +15,12 @@ import { MatSortModule } from '@angular/material/sort';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { NewTaskDialogComponent } from './dialogs/new-task-dialog/new-task-dialog.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
-import { EditTaskDialogComponent } from './dialogs/edit-task-dialog/edit-task-dialog.component';
+import { ConfigTaskDialogComponent } from './dialogs/config-task-dialog/config-task-dialog.component';
 import {StorageServiceModule} from 'ngx-webstorage-service';
 import {MatTooltipModule} from '@angular/material/tooltip';
 
@@ -29,12 +28,10 @@ import {MatTooltipModule} from '@angular/material/tooltip';
   declarations: [
     AppComponent,
     TodolistComponent,
-    NewTaskDialogComponent,
-    EditTaskDialogComponent,
+    ConfigTaskDialogComponent,
   ],
   entryComponents: [
-    NewTaskDialogComponent,
-    EditTaskDialogComponent,
+    ConfigTaskDialogComponent,
   ],
   imports: [
     BrowserModule,

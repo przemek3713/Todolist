@@ -26,6 +26,10 @@
   display: inline-block;
 }
 
+.text-centered {
+  text-align: center;
+}
+
 ::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
   background-color: #494430;
 }
@@ -38,6 +42,9 @@
 
 ::ng-deep .mat-sort-header-arrow {
   color: white !important;
+  right: 0;
+  position: absolute;
+  opacity: 0.70;
 }
 
 ::ng-deep .mat-checkbox-inner-container {
