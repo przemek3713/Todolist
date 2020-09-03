@@ -11,7 +11,6 @@ Project is created with:
 
 ### Requirements
 To run this project, you need to have npm installed.
-I have used 6.14.4 version.
 
 
 ### Setup
