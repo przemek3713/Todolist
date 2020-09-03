@@ -37,7 +37,7 @@ export class ConfigTaskDialogComponent implements OnInit {
     }
   }
 
-  @HostListener('document:keydown', ['$event']) onKeydownHandler(event: KeyboardEvent) {
+  @HostListener('document:keydown', ['$event']) onKeydownHandler(event: KeyboardEvent): void {
     switch (event.code) {
       case 'Escape':
         this.onCancelButton();
@@ -48,7 +48,7 @@ export class ConfigTaskDialogComponent implements OnInit {
     }
   }
 
-  getDialogTitle() {
+  getDialogTitle(): string {
     return this.data.taskName === '' ? 'Create a new task' : 'Edit task';
   }
 }
