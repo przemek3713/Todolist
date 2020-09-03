@@ -18,5 +18,5 @@
   </mat-select>
 </mat-form-field>
 
-<button class="custom-mat-button add-button" mat-raised-button (click)="onAddButton()">Add</button>
+<button class="custom-mat-button add-button" [disabled]="taskName.invalid" mat-raised-button (click)="onAddButton()">Add</button>
 <button class="custom-mat-button cancel-button" mat-raised-button (click)="onCloseButton()">Close</button>
