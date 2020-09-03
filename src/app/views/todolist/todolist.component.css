@@ -1,3 +1,4 @@
+
 .full-width-table {
   width: 100%;
 }
@@ -10,6 +11,7 @@
 .mat-header-cell {
   background-color: #494430;
   color: white;
+  font-size: 16px;
 }
 
 .custom-mat-button {
