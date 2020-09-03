@@ -27,7 +27,7 @@
 }
 
 .text-centered {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 ::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
@@ -35,9 +35,9 @@
 }
 
 ::ng-deep .mat-sort-header-button {
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
+  /*left: 50%;*/
+  /*transform: translateX(-50%);*/
+  /*position: absolute;*/
 }
 
 ::ng-deep .mat-sort-header-arrow {
@@ -55,7 +55,7 @@
 }
 
 ::ng-deep .mat-cell {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .done-section {

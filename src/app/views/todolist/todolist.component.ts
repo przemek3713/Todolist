@@ -21,14 +21,15 @@ export class TodolistComponent implements AfterViewInit, OnInit {
     displayedColumns = ['taskName', 'priority', 'done', 'actions'];
     ids = [];
 
-    private refreshTable(): void {
+    private refreshTable(event: string): void {
         // forces table rendering
         this.paginator._changePageSize(this.paginator.pageSize);
 
         // if last element of page is deleted, page is changed to previous
         if (this.paginator.length % this.paginator.pageSize === 1 &&
             this.paginator.hasPreviousPage() &&
-            this.paginator.pageIndex === this.paginator.getNumberOfPages() - 1) {
+            this.paginator.pageIndex === this.paginator.getNumberOfPages() - 1 &&
+            event === 'delete') {
             this.paginator.previousPage();
         }
     }
@@ -81,7 +82,7 @@ export class TodolistComponent implements AfterViewInit, OnInit {
                 && result.priority !== null
                 && result.done !== null) {
                 this.addTask(result.id, result.taskName, +result.priority, false);
-                this.refreshTable();
+                this.refreshTable('create');
             }
         });
 
@@ -94,7 +95,7 @@ export class TodolistComponent implements AfterViewInit, OnInit {
             priority: row.priority,
             done: !value
         });
-        this.refreshTable();
+        this.refreshTable('toggleDone');
     }
 
     getPriority(priority: number): string {
@@ -134,7 +135,7 @@ export class TodolistComponent implements AfterViewInit, OnInit {
 
         this.storage.set('ids', this.ids);
 
-        this.refreshTable();
+        this.refreshTable('delete');
     }
 
     editTask(row: any) {
@@ -158,6 +159,6 @@ export class TodolistComponent implements AfterViewInit, OnInit {
             }
         });
 
-        this.refreshTable();
+        this.refreshTable('edit');
     }
 }
