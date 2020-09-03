@@ -24,6 +24,6 @@ ng serve
 ```
 
 
-after that, is launched at https://localhost:4200/
+after that, project is launched at https://localhost:4200/
 
 

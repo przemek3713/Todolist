@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1a59302-c783-4644-a648-0bea22e96623" name="Default Changelist" comment="hotfix">
+      <change afterPath="$PROJECT_DIR$/.idea/Todolist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gyOWjKwwtRDHIV29wZwAqHXS7y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2E Tests (polsource)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1a59302-c783-4644-a648-0bea22e96623" name="Default Changelist" comment="" />
+      <created>1599083399293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599083399293</updated>
+      <workItem from="1599083400595" duration="1931000" />
+      <workItem from="1599124740141" duration="18794000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1599084151465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599084151465</updated>
+    </task>
+    <task id="LOCAL-00002" summary="e2e commit">
+      <created>1599084313827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599084313827</updated>
+    </task>
+    <task id="LOCAL-00003" summary="app component">
+      <created>1599084342885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599084342885</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task edit dialog">
+      <created>1599084362599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599084362599</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new task dialog">
+      <created>1599084451676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599084451676</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Todolist component">
+      <created>1599084585108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599084585108</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gitignore">
+      <created>1599084648837</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599084648837</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial commit">
+      <created>1599084692755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599084692755</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add button disabled when task name is invalid">
+      <created>1599125134051</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599125134051</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fusion of edit and new task dialogs">
+      <created>1599132350868</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599132350868</updated>
+    </task>
+    <task id="LOCAL-00011" summary="comments added">
+      <created>1599139851421</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599139851421</updated>
+    </task>
+    <task id="LOCAL-00012" summary="README">
+      <created>1599139885472</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599139885472</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hotfix">
+      <created>1599144120370</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599144120370</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hotfix">
+      <created>1599144732637</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599144732637</updated>
+    </task>
+    <task id="LOCAL-00015" summary="hotfix">
+      <created>1599144816465</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599144816465</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="e2e commit" />
+    <MESSAGE value="app component" />
+    <MESSAGE value="task edit dialog" />
+    <MESSAGE value="new task dialog" />
+    <MESSAGE value="Todolist component" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="add button disabled when task name is invalid" />
+    <MESSAGE value="fusion of edit and new task dialogs" />
+    <MESSAGE value="comments added" />
+    <MESSAGE value="README" />
+    <MESSAGE value="hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1554" height="198" key="GridCell.Tab.0.bottom" timestamp="1599135293922">
+      <screen x="0" y="27" width="1600" height="821" />
+    </state>
+    <state width="1554" height="198" key="GridCell.Tab.0.bottom/0.27.1600.821@0.27.1600.821" timestamp="1599135293922" />
+    <state width="1554" height="198" key="GridCell.Tab.0.center" timestamp="1599135293921">
+      <screen x="0" y="27" width="1600" height="821" />
+    </state>
+    <state width="1554" height="198" key="GridCell.Tab.0.center/0.27.1600.821@0.27.1600.821" timestamp="1599135293921" />
+    <state width="1554" height="198" key="GridCell.Tab.0.left" timestamp="1599135293921">
+      <screen x="0" y="27" width="1600" height="821" />
+    </state>
+    <state width="1554" height="198" key="GridCell.Tab.0.left/0.27.1600.821@0.27.1600.821" timestamp="1599135293921" />
+    <state width="1554" height="198" key="GridCell.Tab.0.right" timestamp="1599135293922">
+      <screen x="0" y="27" width="1600" height="821" />
+    </state>
+    <state width="1554" height="198" key="GridCell.Tab.0.right/0.27.1600.821@0.27.1600.821" timestamp="1599135293922" />
+    <state x="267" y="352" width="256" height="178" key="VCS.EditChangelistDialog" timestamp="1599084173721">
+      <screen x="0" y="27" width="1600" height="821" />
+    </state>
+    <state x="267" y="352" width="256" height="178" key="VCS.EditChangelistDialog/0.27.1600.821@0.27.1600.821" timestamp="1599084173721" />
+    <state x="395" y="173" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599144821306">
+      <screen x="0" y="27" width="1600" height="821" />
+    </state>
+    <state x="395" y="173" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1600.821@0.27.1600.821" timestamp="1599144821306" />
+    <state x="581" y="352" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599083420770">
+      <screen x="0" y="27" width="1600" height="821" />
+    </state>
+    <state x="581" y="352" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1600.821@0.27.1600.821" timestamp="1599083420770" />
+    <state x="863" y="169" width="672" height="678" key="search.everywhere.popup" timestamp="1599145475192">
+      <screen x="0" y="27" width="1600" height="821" />
+    </state>
+    <state x="863" y="169" width="672" height="678" key="search.everywhere.popup/0.27.1600.821@0.27.1600.821" timestamp="1599145475192" />
+  </component>
+</project>
