@@ -26,18 +26,8 @@
   display: inline-block;
 }
 
-.text-centered {
-  /*text-align: center;*/
-}
-
 ::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
   background-color: #494430;
-}
-
-::ng-deep .mat-sort-header-button {
-  /*left: 50%;*/
-  /*transform: translateX(-50%);*/
-  /*position: absolute;*/
 }
 
 ::ng-deep .mat-sort-header-arrow {
@@ -54,8 +44,8 @@
   -ms-transform: translateY(-50%);
 }
 
-::ng-deep .mat-cell {
-  /*text-align: center;*/
+.word-breaker {
+  word-break: break-all;
 }
 
 .done-section {
